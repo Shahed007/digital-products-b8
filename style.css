@@ -285,6 +285,18 @@ a:active {
   text-align: justify;
   margin-bottom: 2rem;
 }
+
+/* Added animation on card */
+#card-1 {
+  animation: bouns 2s infinite ease alternate, reverse, normal;
+}
+#card-2 {
+  animation: bouns 5s infinite ease alternate, reverse, normal;
+}
+#card-3 {
+  animation: bouns 7s infinite ease alternate, reverse, normal;
+}
+
 /* Animation */
 @keyframes bouns {
   0% {
