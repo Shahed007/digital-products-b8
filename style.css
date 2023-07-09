@@ -266,13 +266,13 @@ a:active {
 
 /* Added animation on card */
 #card-1 {
-  animation: bouns 2s infinite ease alternate, reverse, normal;
+  animation: bouns 2s 0.3s infinite ease alternate, reverse, normal;
 }
 #card-2 {
-  animation: bouns 5s infinite ease alternate, reverse, normal;
+  animation: bouns 5s 0.4s infinite ease alternate, reverse, normal;
 }
 #card-3 {
-  animation: bouns 7s infinite ease alternate, reverse, normal;
+  animation: bouns 7s 0.5s infinite ease alternate, reverse, normal;
 }
 
 /* section-contact-us-Styling*/
@@ -384,6 +384,60 @@ textarea {
   color: #fff;
 }
 
+/* Footer Contact Form */
+.footer-item img {
+  width: 10rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  padding: 6rem;
+}
+
+.footer-item {
+  font-size: 1.6rem;
+}
+
+.footer-item .footer-item-title {
+  margin-bottom: 1.5rem;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.footer-item blockquote {
+  line-height: 20px;
+}
+
+.footer-item ul {
+  line-height: 30px;
+}
+
+.footer-item ul li {
+  list-style: none;
+}
+
+.footer-item ul li a:link,
+.footer-item ul li a:visited {
+  text-decoration: none;
+}
+
+.footer-item address {
+  line-height: 30px;
+}
+
+/* Copy-Right Styling */
+.copyright {
+  text-align: center;
+  font-size: 1.6rem;
+  border-top: 2px solid #f1f1f1b0;
+  border-radius: 1px;
+}
+
+.copyright p {
+  padding: 1rem 0 0 0;
+}
 /* Animation */
 @keyframes bouns {
   0% {
