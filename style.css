@@ -94,6 +94,10 @@ body {
   left: 41%;
 }
 
+section:not(:first-child) {
+  margin-top: 10rem;
+}
+
 /* Main-Nav-Styling */
 nav {
   background-color: var(--primary-color);
@@ -240,6 +244,45 @@ a:active {
   font-size: 1.6rem;
   width: 70%;
   line-height: 25px;
+  margin-bottom: 2rem;
+}
+
+/* Section Our Services */
+.section-our-services {
+  background-color: var(--primary-color);
+  background-image: url("./images/background.png");
+  padding: 5rem 0;
+}
+
+.section-our-services_container {
+  margin-top: 7rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.section-our-services_card {
+  padding: 3rem 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.75);
+  border-radius: 1rem;
+}
+
+.section-our-services_card img {
+  width: 7rem;
+}
+
+.section-our-services_card h4 {
+  font-size: 1.8rem;
+  font-weight: 900;
+  margin: 1.5rem 0 1rem 0;
+}
+
+.section-our-services_card p {
+  font-size: 1.6rem;
+  text-align: justify;
   margin-bottom: 2rem;
 }
 /* Animation */
