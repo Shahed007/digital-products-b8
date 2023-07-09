@@ -275,6 +275,58 @@ a:active {
   animation: bouns 7s infinite ease alternate, reverse, normal;
 }
 
+/* section-contact-us-Styling*/
+.section-contact-us {
+  margin: 0 !important;
+  padding: 7rem 0;
+  background-color: #f5f5f5;
+}
+
+.section-contact-us .container {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form {
+  display: flex;
+  gap: 5rem;
+  margin-top: 4rem;
+  padding: 3rem;
+  width: 100%;
+}
+
+.contact-form-column {
+  width: 50%;
+}
+
+.contact-form-item {
+  margin-bottom: 3rem;
+  width: 100%;
+}
+
+.contact-form-item label {
+  font-size: 1.8rem;
+  width: 100%;
+}
+
+.contact-form-item .check-text {
+  font-size: 1.2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.contact-form-item input[type="text"],
+input[type="email"],
+textarea {
+  display: block;
+  /* width: 200%; */
+  width: 100%;
+  padding: 1rem 1rem;
+  font-size: 1.6rem;
+  border: 0px;
+  border-radius: 0.5rem;
+}
+
 /* News Letter Style */
 .news-letter-section {
   margin: 0 !important;
