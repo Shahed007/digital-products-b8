@@ -421,6 +421,7 @@ textarea {
 .footer-item ul li a:link,
 .footer-item ul li a:visited {
   text-decoration: none;
+  color: #fff;
 }
 
 .footer-item address {
